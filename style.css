@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+h1 {
+    text-align: center;
+    color:goldenrod;
+    background-color: navy;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+h3 {
+    color: red;
+    background-color: black;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+p {
+    color: yellow; 
+    margin-top: 50px;
+}
+.texte {
+    color: white;
+}
+.video {
+    position:fixed;
+    inset: 0;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.video iframe {
+position:absolute;
+top:50%;
+left: 50%;
+width : 100vw;
+height: 56.25vw;
+min-height: 100vh;
+min-width: 177.78vh;
+transform: translate(-50%, -50%);
+pointer-events: none;
+}
+
+.contenu {
+    position: relative;
+    color: white;
+}
